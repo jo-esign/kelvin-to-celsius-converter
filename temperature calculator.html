@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Temperature Converter</title>
+        <meta charset="UTF-8">
+    <script src="temperature calculator.js"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+    <body> 
+        <div id="header">
+            <h2>CELSIUS TO FAHRENHEIT CONVERTER</h2>
+        </div>
+        <div class="section">
+            
+        <p>
+                <label>Fahrenheit</label>
+                <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+              </p>
+              <p>Celcius: <span id="outputCelcius" onChange=></span></p>
+              
+        </div>
+        
+            
+
+                <style>
+                    body{
+                        font-family: 'Geometric', sans-serif;
+                    }
+                    h2{
+                        font-size: 50px;
+                        
+                    }
+                    #header{
+                        background-color: chocolate;
+                        
+                    }
+                    .section{ 
+                        width: 300px;
+                        border: 15px solid chocolate;
+                        padding: 20px;
+                        margin: 10px;
+
+                    }
+                    
+                    h3{
+                        font-size: 30px;
+
+                        
+                    }
+                    
+                </style>
+    </body>
+
+    
+</html>
